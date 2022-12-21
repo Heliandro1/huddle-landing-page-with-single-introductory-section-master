@@ -1,13 +1,3 @@
-/*Todas as demais medias*/
-/*
-    Typical Devices Breakpoint
-    Pequenas Telas: até 600px
-    Celulares: 600px até 768px
-    Tablets: 768px até 992px
-    Desktops: 992px até 1200px
-    Grandes Telas: acima de 1200px
-
-*/
 @media only screen and (min-width: 768px) and (max-width: 992px){
     main{
         flex-direction: row;
@@ -38,6 +28,12 @@
         width: 320px;
         height: 230px;
         background-size: cover;
+    }
+    nav{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 200px;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px){
@@ -70,6 +66,12 @@
         width: 440px;
         height: 310px;
         background-size: cover;
+    }
+    nav{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 200px;
     }
 }
 @media only screen and (min-width: 1200px) {
@@ -105,5 +107,11 @@
         width: 685px;
         height: 485px;
         background-size: cover;
+    }
+    nav{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 200px;
     }
 }

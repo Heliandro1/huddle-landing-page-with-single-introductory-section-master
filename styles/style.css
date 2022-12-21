@@ -70,6 +70,36 @@ a.btn:hover{
     background-color:hsl(300, 69%, 71%);
     color: hsl(0, 0%, 100%);
 }
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+nav > div{
+    width: 40px;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    cursor: pointer;
+}
+nav > div:hover{
+    border-color: hsl(300, 69%, 71%);
+}
+ div.f{
+    background-image: url('../images/facebook_icon.svg');
+}
+div.t{
+    background-image: url('../images/twitter_icon.svg');
+}
+div.i{
+    background-image: url('../images/instagram_icon.svg');
+} 
 .attribution { 
     font-size: 11px; text-align: center; 
     position: absolute;
