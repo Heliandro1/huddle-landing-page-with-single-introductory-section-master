@@ -4,7 +4,7 @@
         background: hsl(257, 40%, 49%) url('../images/bg-desktop.svg') no-repeat;
         background-position: top;
         justify-content: space-between;
-        gap: 0px;
+        gap: 0em;
     }
     header{
         width: 50%;
@@ -14,8 +14,8 @@
         font-size: 3em;
     }
     main > section{
-        height: 350px;
-        width: 500px;
+        height: 30em;
+        width: 25em;
         text-align: left;
     }
     a.btn{
@@ -33,7 +33,7 @@
         position: absolute;
         bottom: 0;
         right: 0;
-        width: 200px;
+        width: 20em;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px){
@@ -71,7 +71,7 @@
         position: absolute;
         bottom: 0;
         right: 0;
-        width: 200px;
+        width: 20em;
     }
 }
 @media only screen and (min-width: 1200px) {
